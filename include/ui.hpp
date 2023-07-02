@@ -27,9 +27,7 @@ typedef enum struct wifi_display_status {
 } wifi_display_status_t;
 
 extern screen_t main_screen;
-extern label_t status_label;
-extern canvas_t wifi_icon;
-extern canvas_t type_icon;
-extern wifi_display_status_t wifi_status;
+extern label_t hello_label;
+extern canvas_t image_canvas;
 
 extern void main_screen_init();
